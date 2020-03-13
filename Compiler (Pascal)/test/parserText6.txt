@@ -1,0 +1,18 @@
+VAR k, m, n;
+
+PROCEDURE foo(x,y,z);
+    VAR a,b,c;
+    BEGIN
+        a := 1 + a;
+        b := 2;
+        c := 3;
+        foo := 4;
+        WRITELN(a);
+    END;
+
+BEGIN
+    m := 9;
+    n := 8;
+    k := foo(5,5 + 1,5 + 2);
+    WRITELN(k);
+END;
