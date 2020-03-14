@@ -1,0 +1,23 @@
+       display 3
+       assign x = 1
+       display x read x
+       while x < 10 do
+  display x
+  assign x = x+1
+  display x < 5 > 3
+       end
+       if x = 9 then
+   display x
+   assign x = 25
+   display x
+       else if x = 10 then
+   display x
+   assign x = 35
+   display x
+       else
+   display x
+   assign x = 45
+   display x
+       end
+       end
+       display x + 4
